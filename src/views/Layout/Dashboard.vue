@@ -1,9 +1,6 @@
 <template>
     
-        <!--Pageloader-->
-        <!-- Pageloader -->
-        <div class="pageloader"></div>
-        <div class="infraloader is-active"></div>
+       
         <!--Mobile navbar-->
         <nav class="navbar mobile-navbar no-shadow is-hidden-desktop is-hidden-tablet" aria-label="main navigation">
             <div class="container">

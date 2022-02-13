@@ -3,9 +3,9 @@ import FrontPage from "../views/Layout/FrontPage";
 import Dashboard from "../views/Layout/Dashboard";
 import AuthPage from "../views/Layout/AuthPage";
 import Home from "../views/Home.vue";
-import Login from "../views/Auth/Login.vue";
+import Login from "../views/auth/Login.vue";
 
-import Register from "../views/Auth/Register.vue";
+import Register from "../views/auth/Register.vue";
 
 const routes = [
   {
@@ -19,19 +19,18 @@ const routes = [
     component: Dashboard,
   },
  
-  {
-    
+  {    
     path: "/auth",
     component: AuthPage,
 
       children: [
         {
-          path:'login',
+          path:'/login',
           component: Login
         },
 
         {
-          path:'register',
+          path:'/register',
           component: Register
         }
       ]

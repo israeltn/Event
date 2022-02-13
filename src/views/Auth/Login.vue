@@ -1,11 +1,4 @@
 <template>
-  
-         <!--Full pageloader-->
-        <!-- Pageloader -->
-        <div class="pageloader is-full"></div>
-        <div class="infraloader is-full is-active"></div>
-        <div class="auth-wrapper">
-            <!--Page body-->
 
             <div class="auth-wrapper-inner is-single">
 
@@ -90,5 +83,5 @@
                 </div>
 
             </div>
-        </div>
+       
 </template>
